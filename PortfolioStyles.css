@@ -42,12 +42,6 @@
   width: 100%;
 }
 
-.headerText {
-  max-width: 70%;
-  justify: right;
-  text-align: right;
-}
-
 .logo {
   max-width: 30%;
   justify-content: left;
@@ -108,6 +102,15 @@ p {
       display: none;
     }
     h3 { font-size: 26px; }
+    .logoImage {
+      display: none;
+    }
+    .headerText {
+      display: inline;
+      width: 100%;
+      align-content: center;
+      text-align: center;
+    }
 }
 
 @media all and (min-width: 495px) {
@@ -121,6 +124,9 @@ p {
     margin: 3px;
       }
   h3 {margin: 0px;}
+  .headerText {
+    text-align: right;
+  }
 }
 
 @media all and (min-width: 750px) {
