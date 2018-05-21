@@ -1,0 +1,136 @@
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
+}
+
+.wrapper > * {
+  padding: 10px;
+  flex: 1 100%;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainImage {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.secondaryimg {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.header {
+  background: white;
+  line-height: 1;
+  font-family: 'Open Sans Condensed', sans-serif;
+  letter-spacing: 4px;
+  color: #2d3c49;
+  border-bottom: solid #7d97ad 6px;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.headerText {
+  max-width: 70%;
+  justify: right;
+  text-align: right;
+}
+
+.logo {
+  max-width: 30%;
+  justify-content: left;
+}
+
+h1 {
+  margin: 1px;
+  justify: left;
+}
+
+h2 {
+  font-size: 22px;
+  margin: 1px;
+}
+
+h3 {
+  color: #2d3c49;
+}
+
+p {
+  font-family: Arial, sans-serif;
+  font-weight: lighter;
+}
+
+.footer {
+  background: white;
+  border-top: solid #7d97ad 6px;
+}
+.main {
+  background: white;
+}
+
+.container-1 {
+  background: white;
+}
+
+.container-2 {
+  background: white;
+}
+.container-3 {
+  background: white;
+}
+
+@media all and (max-width: 494px) {
+  .links {  display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+   }
+    .div-item {
+      width: 100%;
+      border: solid #94B8CA 3px;
+      border-style: double;
+      padding: 0px;
+      margin: 2px;
+    }
+    .secondaryimg {
+      display: none;
+    }
+    h3 { font-size: 26px; }
+}
+
+@media all and (min-width: 495px) {
+  .links {  display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .div-item {
+    width: 33.3%;
+    justify-content: space-between;
+    margin: 3px;
+      }
+  h3 {margin: 0px;}
+}
+
+@media all and (min-width: 750px) {
+  .main {order: 1; }
+  .links {order: 2;}
+  .footer  { order: 5; }
+  h3 { font-size: 25px; margin: 2px;}
+  .div-item {margin: 5px;}
+}
+
+body {
+  padding: 2em;
+}
