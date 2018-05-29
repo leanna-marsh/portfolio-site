@@ -43,13 +43,11 @@
 }
 
 .logo {
-  max-width: 30%;
   justify-content: left;
 }
 
 h1 {
   margin: 1px;
-  justify: left;
 }
 
 h2 {
@@ -74,13 +72,8 @@ p {
   background: white;
 }
 
-.container-1 {
-  background: white;
-}
-
-.container-2 {
-  background: white;
-}
+.container-1,
+.container-2,
 .container-3 {
   background: white;
 }
@@ -91,21 +84,17 @@ p {
     align-items: center;
     justify-content: center;
    }
-    .div-item {
+  
+  .div-item {
       width: 100%;
       border: solid #94B8CA 3px;
       border-style: double;
       padding: 0px;
       margin: 2px;
     }
-    .secondaryimg {
-      display: none;
-    }
-    h3 { font-size: 26px; }
-    .logoImage {
-      display: none;
-    }
-    .headerText {
+  
+  h3 { font-size: 26px; }
+      .headerText {
       display: inline;
       width: 100%;
       align-content: center;
